@@ -24,8 +24,8 @@
 			bindings = <
 	&kp TAB   &kp Q &kp W    &kp E     &kp R    &kp T                                              &kp Y   &kp U    &kp I     &kp O   &kp P    &kp BSLH
 	&kp ESC   &kp A &kp S    &kp D     &kp F    &kp G                                              &kp H   &kp J    &kp K     &kp L   &kp SEMI &kp SQT
-	&kp LSHFT &kp Z &kp X    &kp C     &kp V    &kp B   &kp LSHFT &kp LSHFT   &kp DEL    &kp LSHFT &kp N   &kp M    &kp COMMA &kp DOT &kp FSLH &kp RCTRL
-	                &kp LGUI &kp LCTRL &kp LALT &kp SPC &mo LY_NUMS           &mo LY_NAV &kp BKSP  &kp RET &kp BKSP &kp RALT
+	&kp LSHFT &kp Z &kp X    &kp C     &kp V    &kp B     &kp LSHFT &kp LSHFT   &kp DEL    &kp LSHFT &kp N   &kp M    &kp COMMA &kp DOT &kp FSLH &kp RCTRL
+                    &kp LCTRL &kp LALT &kp LGUI &kp SPACE &mo LY_NUMS           &kp LSHFT &kp BKSP  &kp RET &kp BKSP &kp RALT
                 >;
 			// sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 		};
@@ -38,7 +38,7 @@
 //                     | --- | --- | --- | --- | --- |  | --- | --- | --- | --- | --- |
 			bindings = <
 	&trans &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5                             &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &kp BSLH
-	&trans &kp CARET &kp LBRC  &kp LBKT  &kp RBKT  &kp RBRC                              &kp H     &kp J     &kp K     &kp L     &kp GRAVE &kp HASH
+	&trans &kp CARET &kp LBRC  &kp LBKT  &kp RBKT  &kp RBRC                              &kp L     &kp J     &kp K     &kp L     &kp GRAVE &kp HASH
 	&trans &kp F1    &kp F2    &kp F3    &kp F4    &kp F5 &trans &trans    &trans &trans &kp F6    &kp F7    &kp F8    &kp F9    &kp F10   &kp F11
 	                           &trans    &trans    &trans &trans &trans    &trans &trans &trans    &trans    &trans
 			>;
