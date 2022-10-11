@@ -19,13 +19,13 @@
 // ---------------------------------------------------------------------------------------------------------------------------------
 // | ESC    |  Q  |  W  |  E   |  R   |  T   |                                         |  Y   |  U    |  I    |  O   |   P   | BKPS |
 // | SHIFT  |  A  |  S  |  D   |  F   |  G   |                                         |  H   |  J    |  K    |  L   |   ;   |   '  |
-// | CTRL   |  Z  |  X  |  C   |  V   |  B   | L SHIFT | L SHIFT |  | DEL     | LSHIFT |  N   |  M    |  ,    |  .   |   /   | \    |
+// | CTRL   |  Z  |  X  |  C   |  V   |  B   | TAB     | L SHIFT |  | DEL     | LSHIFT |  N   |  M    |  ,    |  .   |   /   | \    |
 //                      | LCTR | ALT  | GUI  |  SPACE  | LY_NUMS |  | LY_NUMS | BSPC   | RET  | LY_NAV | R-ALT |
 			bindings = <
 	&kp ESC   &kp Q &kp W    &kp E     &kp R    &kp T                                                 &kp Y    &kp U      &kp I     &kp O   &kp P    &kp BKSP
 	&kp LSHFT &kp A &kp S    &kp D     &kp F    &kp G                                                 &kp H    &kp J      &kp K     &kp L   &kp SEMI &kp SQT
 	&kp LCTRL &kp Z &kp X    &kp C     &kp V    &kp B     &kp TAB &kp DEL       &kp RET     &kp RCTRL &kp N    &kp M      &kp COMMA &kp DOT &kp FSLH &kp BSLH 
-                    &kp LCTRL &kp LALT &kp LGUI &kp SPACE &mo LY_NUMS           &kp LY_NUMS &kp BKSP  &kp RET  &kp LY_NAV &kp RALT
+                    &kp LCTRL &kp LALT &kp LGUI &kp SPACE &mo LY_NUMS           &mo LY_NUMS &kp BKSP  &kp RET  &kp LY_NAV &kp RALT
                 >;
 			// sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 		};
