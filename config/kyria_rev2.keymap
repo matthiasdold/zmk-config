@@ -44,5 +44,20 @@
 			>;
 		};
 
+		nav_layer {
+// ---------------------------------------------------------------------------------------------------------------------------------
+// | --- | --- | --- | --- | --- | --- |                          |  -- |  -- |  -- |  -- |  --- |  --- |
+// | --- | --- | --- | --- | --- | --- |                          |  <- |  v  |  ^  |  -> |  --- |  --- |
+// | --- | --- | --- | --- | --- | --- | PG_DN | PG_UP |  | --- | --- | --- | --- | --- |  -- |  --- |  --- |
+//                     | PSCR | --- | --- | HOME | END |  | --- | --- | --- | --- | --- |
+			bindings = <
+	&trans &trans &trans &trans &trans &trans                              &trans &trans &trans &trans &trans &trans
+	&trans &trans &trans &trans &trans &trans                              &LEFT &DOWN &UP &RIGHT &trans &trans
+    &trans &trans &trans &trans &trans &trans &PG_DN &PG_UP  &trans &trans &trans &trans &trans &trans &trans &trans
+	                     &PSCRN &trans &trans &HOME  &END    &trans &trans &trans &trans &trans
+			>;
+		};
+
+
 	};
 };
