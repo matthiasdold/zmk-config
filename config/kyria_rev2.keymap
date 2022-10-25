@@ -17,14 +17,14 @@
 
 		default_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
-// | TAB    |  Q  |  W  |  E   |  R   |  T   |                                         |  Y   |  U    |  I    |  O   |   P   | BKPS |
-// | ESC    |  A  |  S  |  D   |  F   |  G   |                                         |  H   |  J    |  K    |  L   |   ;   |   '  |
-// | LSHIFT |  Z  |  X  |  C   |  V   |  B   | TAB     | L SHIFT |  | DEL     | LSHIFT |  N   |  M    |  ,    |  .   |   /   | \    |
+// | ESC    |  Q  |  W  |  E   |  R   |  T   |                                         |  Y   |  U    |  I    |  O   |   P   | BKPS |
+// | LSHIFT |  A  |  S  |  D   |  F   |  G   |                                         |  H   |  J    |  K    |  L   |   ;   |   '  |
+// | LCTRL  |  Z  |  X  |  C   |  V   |  B   | TAB     | L SHIFT |  | DEL     | LSHIFT |  N   |  M    |  ,    |  .   |   /   | \    |
 //                      | LCTR | ALT  | GUI  |  SPACE  | LY_NUMS |  | LY_NUMS | BSPC   | RET  | LY_NAV | R-ALT |
 			bindings = <
-	&kp TAB    &kp Q &kp W    &kp E     &kp R    &kp T                                                 &kp Y    &kp U      &kp I     &kp O   &kp P    &kp BKSP
-	&kp ESC    &kp A &kp S    &kp D     &kp F    &kp G                                                 &kp H    &kp J      &kp K     &kp L   &kp SEMI &kp SQT
-	&kp LSHIFT &kp Z &kp X    &kp C     &kp V    &kp B  &kp LCTRL &kp DEL       &kp RET     &kp RCTRL &kp N    &kp M      &kp COMMA &kp DOT &kp FSLH &kp BSLH 
+	&kp ESC    &kp Q &kp W    &kp E     &kp R    &kp T                                                 &kp Y    &kp U      &kp I     &kp O   &kp P    &kp BKSP
+	&kp LSHIFT &kp A &kp S    &kp D     &kp F    &kp G                                                 &kp H    &kp J      &kp K     &kp L   &kp SEMI &kp SQT
+	&kp LCTRL  &kp Z &kp X    &kp C     &kp V    &kp B  &kp TAB &kp DEL       &kp RET     &kp RCTRL &kp N    &kp M      &kp COMMA &kp DOT &kp FSLH &kp BSLH 
                     &kp LCTRL &kp LALT &kp LGUI &kp SPACE &mo LY_NAV            &mo LY_NUMS &kp BKSP  &kp RET  &mo LY_NAV &kp RALT
                 >;
 			// sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -33,12 +33,12 @@
 		number_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
 // |  TAB  |  1  |  2  |  3  |  4  |  5  |                          |  6  |  7  |  8  |  9  |   0  |  --- |
-// |  ESC  |  ^  |  {  |  [  |  ]  |  }  |                          |  (  |  -  |  =  |  )  |  `~  | #    |
+// | LSHIFT  |  ^  |  {  |  [  |  ]  |  }  |                          |  (  |  -  |  =  |  )  |  `~  | #    |
 // | SHIFT |  F1 |  F2 |  F3 |  F4 |  F5 | --- | --- |  | --- | --- |  F6 |  F7 | F8  |  F9 |  F10 | F11  |
 //                     | --- | --- | --- | --- | --- |  | --- | --- | --- | --- | --- |
 			bindings = <
-	&trans &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5                             &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &kp BSLH
-	&trans &kp CARET &kp LBRC  &kp LBKT  &kp RBKT  &kp RBRC                              &kp LPAR  &kp MINUS &kp EQUAL &kp RPAR  &kp GRAVE &kp HASH
+	&kp TAB  &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5                             &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &kp BSLH
+	&kb LSHIFT &kp CARET &kp LBRC  &kp LBKT  &kp RBKT  &kp RBRC                              &kp LPAR  &kp MINUS &kp EQUAL &kp RPAR  &kp GRAVE &kp HASH
 	&trans &kp F1    &kp F2    &kp F3    &kp F4    &kp F5 &trans &trans    &trans &trans &kp F6    &kp F7    &kp F8    &kp F9    &kp F10   &kp F11
 	                           &trans    &trans    &trans &trans &trans    &trans &trans &trans    &trans    &trans
 			>;
