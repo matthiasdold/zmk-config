@@ -9,7 +9,7 @@
 #define LY_NAV 2
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h
 
 / {
 	keymap {
@@ -22,10 +22,10 @@
 // | LSHIFT |  Z  |  X  |  C   |  V   |  B   | LCTRL   | L SHIFT |  | DEL     | LSHIFT |  N   |  M    |  ,    |  .   |   /   | \    |
 //                      | LCTR | ALT  | GUI  |  SPACE  | LY_NUMS |  | LY_NUMS | BSPC   | RET  | LY_NAV | R-ALT |
 			bindings = <
-	&kp ESC    &kp Q &kp W    &kp E     &kp R    &kp T                                                 &kp Y    &kp U      &kp I     &kp O   &kp P    &kp BKSP
-	&kp LSHIFT &kp A &kp S    &kp D     &kp F    &kp G                                                 &kp H    &kp J      &kp K     &kp L   &kp SEMI &kp SQT
-	&kp LCTRL  &kp Z &kp X    &kp C     &kp V    &kp B  &kp TAB &kp DEL         &kp RET     &kp RCTRL &kp N    &kp M      &kp COMMA &kp DOT &kp FSLH &kp BSLH 
-                    &kp LCTRL &kp LALT &kp LGUI &kp SPACE &mo LY_NAV            &mo LY_NUMS &kp BKSP  &kp RET  &mo LY_NAV &kp RALT
+	&kp TAB     &kp Q &kp W    &kp E     &kp R    &kp T                                                    &kp Y    &kp U      &kp I     &kp O   &kp P    &kp BKSP
+	&kp ESC     &kp A &kp S    &kp D     &kp F    &kp G                                                    &kp H    &kp J      &kp K     &kp L   &kp SEMI &kp SQT
+	&kp LSHIFT  &kp Z &kp X    &kp C     &kp V    &kp B    &kp TAB   &kp DEL         &kp RET     &kp RCTRL &kp N    &kp M      &kp COMMA &kp DOT &kp FSLH &kp BSLH 
+                            &kp LCTRL &kp LALT &kp LGUI &kp SPACE &mo LY_NAV      &mo LY_NUMS &kp BKSP  &kp RET  &mo LY_NAV &kp RALT
                 >;
 			// sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 		};
