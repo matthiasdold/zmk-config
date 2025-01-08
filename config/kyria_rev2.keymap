@@ -38,9 +38,9 @@
 //                     | --- | --- | --- | --- | --- |  | --- | --- | --- | --- | --- |
 			bindings = <
 	&kp TAB     &trans    &kp NUM_7   &kp NUM_8 &kp NUM_9 &trans                                    &kp LBRC  &kp LBKT  &kp RBKT  &kp RBRC  &kp NUM_0 &kp BSLH
-	&kb ESC     &kp CARET &kp NUM_4   &kp NUM_5 &kp NUM_6 &trans                                    &kp LPAR  &kp MINUS &kp EQUAL &kp RPAR  &kp GRAVE &kp HASH
-	&kb LSHIFT  &trans    &kb NUM_1   &kb NUM_2 &kb NUM_3 &trans  &trans &trans       &trans &trans &trans    &trans    &trans    &trans    &trans    &trans
-	                                  &trans    &kb NUM_0 &trans  &trans &trans       &trans &trans &trans    &trans    &trans
+	&kp ESC     &kp CARET &kp NUM_4   &kp NUM_5 &kp NUM_6 &trans                                    &kp LPAR  &kp MINUS &kp EQUAL &kp RPAR  &kp GRAVE &kp HASH
+	&kp LSHIFT  &trans    &kp NUM_1   &kp NUM_2 &kp NUM_3 &trans  &trans &trans       &trans &trans &trans    &trans    &trans    &trans    &trans    &trans
+	                                  &trans    &kp NUM_0 &trans  &trans &trans       &trans &trans &trans    &trans    &trans
 			>;
 		};
       
